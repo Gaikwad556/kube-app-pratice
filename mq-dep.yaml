@@ -13,7 +13,7 @@ spec:
         app: vprocache01
     spec:
       containers:
-      - name: vprocache01-container
+      - name: vprocache01-cont
         image: memcached
         ports:
         - containerPort: 11211
