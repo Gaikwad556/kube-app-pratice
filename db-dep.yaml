@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: vprodb
 spec:
-  rpelicas: 1
+  replicas: 1
   selector:
     matchLabels:
       app: vprodb
